@@ -1,0 +1,63 @@
+:root {
+  --azul: #011E36;
+  --verde: #03E87A;
+
+}
+
+body {
+  background: linear-gradient(to bottom, var(--azul), black);
+  height: 1000px;
+}
+
+.topo {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  background: none;
+  align-items: center;
+}
+
+header .logo {
+  width: 250px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+header nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 35px;
+}
+
+header nav .menu {
+  text-decoration: none;
+  margin-right: 20px;
+  color: var(--verde);
+  font-weight: bolder;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  padding: 10px 15px;
+  transition: 0.8s background;
+  border-radius: 25px;
+}
+
+header nav .menu:hover {
+  background: var(--verde);
+  border-radius: 25px;
+  padding: 10px 15px;
+  color: var(--azul);
+}
+
+.fab {
+  font-size: 25px;
+  margin-right: 10px;
+  color: gold;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.fab:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
