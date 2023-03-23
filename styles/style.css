@@ -157,19 +157,27 @@ footer .content {
   align-items: center;
   width: 300px;
   height: auto;
-  margin: 0 10px;
 }
 
 .list-footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #03E87A;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.list-footer a {
+  text-decoration: none;
+  color: gold;
 }
 
 .container-logo {
   justify-content: center;
   text-align: center;
   align-items: center;
+  margin: 0 15%;
 }
 
 .logo-footer {
@@ -184,4 +192,5 @@ footer .content {
 
 .icons-footer i {
   margin-right: 25px;
+  font-size: 37px;
 }
