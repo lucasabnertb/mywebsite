@@ -70,3 +70,64 @@ header nav .menu:active {
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
 }
+
+/*==========================================================================================*/
+
+
+footer {
+  background: var(--azul);
+  align-items: center;
+  height: auto;
+}
+
+footer .content {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.caixa {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 300px;
+  height: auto;
+}
+
+.list-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #03E87A;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.list-footer a {
+  text-decoration: none;
+  color: gold;
+}
+
+.container-logo {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0 15%;
+}
+
+.logo-footer {
+  width: 250px;
+}
+
+.icons-footer {
+  justify-content: center;
+  align-items: center;
+  margin-right: 0;
+}
+
+.icons-footer i {
+  margin-right: 25px;
+  font-size: 37px;
+}
