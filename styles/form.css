@@ -1,0 +1,65 @@
+.container {
+  display: block;
+  position: relative;
+  width: 940px;
+  height: auto;
+  margin: 60px auto;
+}
+
+
+form {
+  width: 600px;
+  height: auto;
+  margin: auto;
+  padding: 5px 5px;
+  border-radius: 25px;
+  font-family: 'Poppins', sans-serif;
+}
+
+label {
+  display: block;
+  margin: 10px 0 10px 20px;
+  font-size: 18px;
+  color: var(--verde);
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.input {
+  background: rgba(245, 245, 245, 0.163);
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  display: block;
+  width: 90%;
+  padding: 3px 10px;
+  margin: 0 auto;
+  border: 3px solid var(--verde);
+  border-radius: 25px;
+  color: rgb(255, 255, 255);
+  outline: none;
+}
+
+form .button {
+  display: block;
+  margin: 20px auto 15px auto;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  background: gold;
+  border-radius: 25px;
+  width: 25%;
+  color: var(--azul);
+  transition: all 0.5s background;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+.mensagem {
+  height: 200px;
+}
+
+
+.button:hover {
+  background: gold;
+  color: whitesmoke;
+}
