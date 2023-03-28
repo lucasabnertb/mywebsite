@@ -40,22 +40,21 @@ header nav .menu {
   padding: 10px 15px;
   transition: 0.8s background, border;
   border-radius: 25px;
+  border: solid 2px rgba(0, 0, 0, 0);
 }
 
 header nav .menu:hover {
-  background: var(--verde);
+  background: none;
   border-radius: 25px;
   padding: 10px 15px;
-  color: var(--azul);
+  color: var(--verde);
+  border: var(--verde) 2px solid;
 }
 
 header nav .menu:active {
-  margin-right: 16px;
   background: var(--verde);
   border-radius: 25px;
-  padding: 10px 15px;
   color: var(--azul);
-  border: solid 2px gold;
 }
 
 .fab {
