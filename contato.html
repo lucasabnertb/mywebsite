@@ -30,3 +30,26 @@
       <a href="https://github.com/lucasabnertb" target="_blank"><i class="fab fa-github"></i></a>
     </nav>
   </header>
+  <main>
+    <div class="container">
+      <form class="form" method="POST" action="./email.php">
+        <h3>Fale conosco</h3>
+
+        <label for="nome">Nome:</label>
+        <input type="text" name='nome' class="input" required placeholder="Seu nome"/>
+
+        <label for="email">E-mail: </label>
+        <input type="email" name='email' class="input" required placeholder="email@dominio.com"/>
+
+        <label for="telefone">Telefone: </label>
+        <input type="tel" name='telefone' class="input" required placeholder="(xx) xxxx-xxxx"/>
+
+        <label for="mensagem">Mensagem: </label>
+        <textarea cols="30" rows="8" name='mensagem' class="input" required></textarea>
+
+        <input type="submit" value="Enviar" class="button" />
+
+      </form>
+    </div> 
+  </main>
+</body>
