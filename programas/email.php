@@ -33,13 +33,16 @@ $header = "From: $email_destinatario".PHP_EOL.
           "Reply-To: ".$email.PHP_EOL.
           "X=Mailer:PHP/".phpversion();
 //=========================================================
+$retorno1 = "Mensagem enviada com sucesso!";
+$retorno2 = "Erro ao enviar";
+
 
 // Variáveis do método POST
 //=========================================================          
 if (mail($email_destinatario,$subject,$body,$header)){
-  echo("Mensagem enviada com sucesso!");
+  echo $retorno1;
 }else{
-  echo ("Erro ao enviar");
+  echo $retorno2;
 }
 
 }
