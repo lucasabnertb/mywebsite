@@ -1,5 +1,7 @@
 <?php
 
+$page=basename($_SERVER['PHP_SELF']);
+
 //Funcao que verifica e executa o metodo POST
 if (isset($_POST['email']) && !empty($_POST['email'])) {
 
@@ -39,7 +41,7 @@ $retorno2 = "Erro ao enviar";
 // Variáveis do método POST
 //=========================================================          
 if (mail($email_destinatario,$subject,$body,$header)){
-  echo $retorno1;
+  echo "<script> alert('$retorno1');</script>";
 }else{
   echo "<script> alert('$retorno2');</script>";
 }
@@ -47,8 +49,6 @@ if (mail($email_destinatario,$subject,$body,$header)){
 }
 
 ?>
-
-
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -71,12 +71,12 @@ if (mail($email_destinatario,$subject,$body,$header)){
 <body>
   <header class="topo">
     
-    <a href="./index.html"><h1><img class="logo" src="./imagens/logo1.png"></h1></a>
+    <a href="./index.php"><h1><img class="logo" src="./imagens/logo1.png"></h1></a>
    
     <nav class="menu-nav">
-      <a class="menu" href="./index.html">Inicio</a>
-      <a class="menu" href="./projetos.html">Projetos</a>
-      <a class="menu" href="./sobre-mim.html">Sobre Mim</a>
+      <a class="menu" href="./index.php">Inicio</a>
+      <a class="menu" href="./projetos.php">Projetos</a>
+      <a class="menu" href="./sobre-mim.php">Sobre Mim</a>
       <a class="menu" href="./contato.php">Contato</a>    
       <a href="https://www.linkedin.com/in/lucasabnertb" target="_blank"><i class="fab fa-linkedin"></i></a>
       <a href="https://github.com/lucasabnertb" target="_blank"><i class="fab fa-github"></i></a>
@@ -84,7 +84,8 @@ if (mail($email_destinatario,$subject,$body,$header)){
   </header>
   <main>
     <div class="container">
-      <form class="form" method="POST" action="#">
+      
+      <form class="form" method="POST" action="<echo">
 
         <label for="nome">Nome:</label>
         <input type="text" name='nome' class="input" required placeholder="Seu nome" tabindex="0"/>
@@ -104,3 +105,5 @@ if (mail($email_destinatario,$subject,$body,$header)){
     </div> 
   </main>
 </body>
+
+

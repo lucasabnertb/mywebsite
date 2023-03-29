@@ -19,12 +19,12 @@
 <body>
   <header class="topo">
     
-    <a href="./index.html"><h1><img class="logo" src="./imagens/logo1.png"></h1></a>
+    <a href="./index.php"><h1><img class="logo" src="./imagens/logo1.png"></h1></a>
    
     <nav class="menu-nav">
-      <a class="menu" href="./index.html">Inicio</a>
-      <a class="menu" href="./projetos.html">Projetos</a>
-      <a class="menu" href="./sobre-mim.html">Sobre Mim</a>
+      <a class="menu" href="./index.php">Inicio</a>
+      <a class="menu" href="./projetos.php">Projetos</a>
+      <a class="menu" href="./sobre-mim.php">Sobre Mim</a>
       <a class="menu" href="./contato.php">Contato</a>    
       <a href="https://www.linkedin.com/in/lucasabnertb" target="_blank"><i class="fab fa-linkedin"></i></a>
       <a href="https://github.com/lucasabnertb" target="_blank"><i class="fab fa-github"></i></a>
