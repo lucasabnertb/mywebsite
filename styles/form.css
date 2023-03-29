@@ -44,12 +44,12 @@ form .button {
   margin: 20px auto 15px auto;
   padding: 10px;
   font-size: 18px;
-  border: none;
-  background: gold;
+  border: 3px solid gold;
+  background: none;
   border-radius: 25px;
   width: 25%;
-  color: var(--azul);
-  transition: all 0.5s background;
+  color: gold;
+  transition: 0.5s background;
   font-family: 'Poppins', sans-serif;
   font-weight: bolder;
 }
@@ -61,5 +61,5 @@ form .button {
 
 .button:hover {
   background: gold;
-  color: whitesmoke;
+  color: rgb(0, 0, 0);
 }
