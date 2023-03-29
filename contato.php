@@ -1,7 +1,5 @@
 <?php
 
-$page=basename($_SERVER['PHP_SELF']);
-
 //Funcao que verifica e executa o metodo POST
 if (isset($_POST['email']) && !empty($_POST['email'])) {
 
