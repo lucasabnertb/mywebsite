@@ -52,12 +52,17 @@ if (mail($email_destinatario,$subject,$body,$header)){
 
 <!DOCTYPE html>
 <html lang="pt-br">
+<head>
+  <link rel="stylesheet" href="./styles/form.css">
   <title>Projetos</title>
 </head>
 
-<body> 
+
+<body>
+  
   <main>
-    <div class="container">      
+    <div class="container">
+      
       <form class="form" method="POST" action="<echo">
 
         <label for="nome">Nome:</label>
@@ -73,6 +78,7 @@ if (mail($email_destinatario,$subject,$body,$header)){
         <textarea cols="30" rows="8" name='mensagem' class="input mensagem" required></textarea>
 
         <input type="submit" value="Enviar" class="button" />
+
       </form>
     </div> 
   </main>

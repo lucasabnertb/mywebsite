@@ -11,8 +11,11 @@ Lhe convido à conhecer um pouco de minha história e alguns dos projetos que de
 
 <!DOCTYPE html>
 <html lang="pt-br">
+<head>
+  <link rel="stylesheet" href="./styles/style.css">
   <title>Meu site</title>
 </head>
+
 
 <body>
   
