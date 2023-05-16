@@ -13,44 +13,29 @@ require './menu.php';
 </head>
 
 <body>
-  <div class="caixa-lista">
-  <ul class="list">
-    <li class="projeto">
-      <a href="./projetos/calculadora_php/">
-        <img src="./projetos/calculadora_php/calculadora_php.jpg">
+  <div class="caixa-listas">
+    <ul class="list"> 
+      <li class="projeto">
+        <div class="caixa-esquerda">
+          <a href="./projetos/calculadora_php/" target="_blank">
+        </a>
+        </div>
+        <div class="caixa-direita">
           <h3>Calculadora</h3>
-      </a>
-    </li>
-    <li class="projeto">
-      <a href="./projetos/calculadora_php/">
-        <img src="./projetos/calculadora_php/calculadora_php.jpg">
-        <h3>Calculadora</h3>
-      </a>
-    </li>
-    <li class="projeto">
-      <a href="./projetos/calculadora_php/">
-        <img src="./projetos/calculadora_php/calculadora_php.jpg">
-        <h3>Calculadora</h3>
-      </a>
-    </li>
-    <li class="projeto">
-      <a href="./projetos/calculadora_php/">
-        <img src="./projetos/calculadora_php/calculadora_php.jpg">
-        <h3>Calculadora</h3>
-      </a>
-    </li>
-    <li class="projeto">
-      <a href="./projetos/calculadora_php/">
-        <img src="./projetos/calculadora_php/calculadora_php.jpg">
-        <h3>Calculadora</h3>
-      </a>
-    </li>
-    <li class="projeto">
-      <a href="./projetos/calculadora_php/">
-        <img src="./projetos/calculadora_php/calculadora_php.jpg">
-        <h3>Calculadora</h3>
-      </a>
-    </li>
-  </ul>
+          <p>Parágrafo é uma unidade autossuficiente de um discurso, na escrita, que lida com um ponto de vista ou ideia particular. Seu símbolo é §, apresentando a forma de dois esses entrelaçados, que representam as iniciais das palavras latinas signumsectionis. <p>
+        </div>
+      </li>
+
+      <li class="projeto">
+        <div class="caixa-esquerda">
+          <a href="./projetos/calculadora_php/" target="_blank">
+          </a>
+        </div>
+        <div class="caixa-direita">
+          <h3>Calculadora</h3>
+          <p>Parágrafo é uma unidade autossuficiente de um discurso, na escrita, que lida com um ponto de vista ou ideia particular. Seu símbolo é §, apresentando a forma de dois esses entrelaçados, que representam as iniciais das palavras latinas signumsectionis. <p>
+        </div>
+      </li>
+    </ul>   
   </div>
 </body>
