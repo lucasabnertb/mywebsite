@@ -15,7 +15,7 @@
   box-sizing: border-box;
   position: relative;
 }
- 
+
 
 .projeto {
   align-items: center;
@@ -28,11 +28,14 @@
   margin: 0;
   box-sizing: border-box;
   background-image: url(../projetos/calculadora_php/calculadora_php.jpg);
+  border-radius: 25px;
 
 }
-.caixa-esquerda img{
+
+.caixa-esquerda img {
   height: 100%;
   scale: 130%;
+
 }
 
 .caixa-direita {
@@ -42,6 +45,7 @@
   box-sizing: border-box;
   height: 100%;
   position: relative;
+
 
 }
 
@@ -53,7 +57,7 @@
   margin: 0 0 0 15px;
 }
 
-.caixa-direita p{
+.caixa-direita p {
   margin: 15px 0 0 15px;
   font-size: 16px;
   font-family: var(--font);
